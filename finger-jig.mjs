@@ -23,8 +23,8 @@ const keyToothHeight = woodThickness;
 
 const stepKeyWidth = fingerWidth *2;
 const stepKey = `
-${STLCube(0,0,0, stepKeyWidth, railDepth, fingerWidth)}
-${STLCube(0,0,1, fingerWidth, fingerWidth, keyToothHeight)}
+${STLCube(0,0,0, stepKeyWidth, railDepth, keyToothHeight)}
+${STLCube(0,0,0, fingerWidth, fingerWidth, keyToothHeight, 0, 0, keyToothHeight)}
 `;
 const stepKeyGuardRailDepth = 25;
 const stepKeyGuardRailLength = 100;

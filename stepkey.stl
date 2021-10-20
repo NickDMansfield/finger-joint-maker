@@ -88,7 +88,7 @@ solid BASICSTLCUBEX0Y0Z0
 endsolid BASICSTLCUBEX0Y0Z0
 
 
-solid BASICSTLCUBEX0Y0Z1
+solid BASICSTLCUBEX0Y0Z0
   facet normal  0.0   0.0  -12.5
     outer loop
       vertex    0   0   12.5
@@ -173,5 +173,5 @@ solid BASICSTLCUBEX0Y0Z1
       vertex    0   12.5   25
     endloop
   endfacet
-endsolid BASICSTLCUBEX0Y0Z1
+endsolid BASICSTLCUBEX0Y0Z0
 
