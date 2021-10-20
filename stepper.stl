@@ -1,0 +1,353 @@
+
+
+solid BASICSTLCUBEX0Y0Z0
+  facet normal  0.0   0.0  -12.5
+    outer loop
+      vertex    0   0   12.5
+      vertex    37.5   71.25   12.5
+      vertex    37.5   0   12.5
+    endloop
+  endfacet
+  facet normal  0.0   0.0  -12.5
+    outer loop
+      vertex    0   0   12.5
+      vertex    0   71.25   12.5
+      vertex    37.5   71.25   12.5
+    endloop
+  endfacet
+  facet normal  -37.5 0.0   0.0
+    outer loop
+      vertex    0   0   12.5
+      vertex    0   71.25   25
+      vertex    0   71.25   12.5
+    endloop
+  endfacet
+  facet normal  -37.5 0.0   0.0
+    outer loop
+      vertex    0   0   12.5
+      vertex    0   0   25
+      vertex    0   71.25   25
+    endloop
+  endfacet
+  facet normal  0.0  71.25  0.0
+    outer loop
+      vertex    0   71.25   12.5
+      vertex    37.5   71.25   25
+      vertex    37.5   71.25   12.5
+    endloop
+  endfacet
+  facet normal  0.0  71.25  0.0
+    outer loop
+      vertex    0   71.25   12.5
+      vertex    0   71.25   25
+      vertex    37.5   71.25   25
+    endloop
+  endfacet
+  facet normal  37.5  0.0 0.0
+    outer loop
+      vertex    37.5   0   12.5
+      vertex    37.5   71.25   12.5
+      vertex    37.5   71.25   25
+    endloop
+  endfacet
+  facet normal  37.5  0.0 0.0
+    outer loop
+      vertex    37.5   0   12.5
+      vertex    37.5   71.25   25
+      vertex    37.5   0   25
+    endloop
+  endfacet
+  facet normal  0.0  -71.25  0.0
+    outer loop
+      vertex    0   0   12.5
+      vertex    37.5   0   12.5
+      vertex    37.5   0   25
+    endloop
+  endfacet
+  facet normal  0.0  -71.25  0.0
+    outer loop
+      vertex    0   0   12.5
+      vertex    37.5   0   25
+      vertex    0   0   25
+    endloop
+  endfacet
+  facet normal  0.0  0.0  12.5
+    outer loop
+      vertex    0   0   25
+      vertex    37.5   0   25
+      vertex    37.5   71.25   25
+    endloop
+  endfacet
+  facet normal  0.0  0.0  12.5
+    outer loop
+      vertex    0   0   25
+      vertex    37.5   71.25   25
+      vertex    0   71.25   25
+    endloop
+  endfacet
+endsolid BASICSTLCUBEX0Y0Z0
+ // top platform
+
+solid BASICSTLCUBEX0Y0Z0
+  facet normal  0.0   0.0  -12.5
+    outer loop
+      vertex    37.5   56.25   12.5
+      vertex    137.5   71.25   12.5
+      vertex    137.5   56.25   12.5
+    endloop
+  endfacet
+  facet normal  0.0   0.0  -12.5
+    outer loop
+      vertex    37.5   56.25   12.5
+      vertex    37.5   71.25   12.5
+      vertex    137.5   71.25   12.5
+    endloop
+  endfacet
+  facet normal  -100 0.0   0.0
+    outer loop
+      vertex    37.5   56.25   12.5
+      vertex    37.5   71.25   25
+      vertex    37.5   71.25   12.5
+    endloop
+  endfacet
+  facet normal  -100 0.0   0.0
+    outer loop
+      vertex    37.5   56.25   12.5
+      vertex    37.5   56.25   25
+      vertex    37.5   71.25   25
+    endloop
+  endfacet
+  facet normal  0.0  15  0.0
+    outer loop
+      vertex    37.5   71.25   12.5
+      vertex    137.5   71.25   25
+      vertex    137.5   71.25   12.5
+    endloop
+  endfacet
+  facet normal  0.0  15  0.0
+    outer loop
+      vertex    37.5   71.25   12.5
+      vertex    37.5   71.25   25
+      vertex    137.5   71.25   25
+    endloop
+  endfacet
+  facet normal  100  0.0 0.0
+    outer loop
+      vertex    137.5   56.25   12.5
+      vertex    137.5   71.25   12.5
+      vertex    137.5   71.25   25
+    endloop
+  endfacet
+  facet normal  100  0.0 0.0
+    outer loop
+      vertex    137.5   56.25   12.5
+      vertex    137.5   71.25   25
+      vertex    137.5   56.25   25
+    endloop
+  endfacet
+  facet normal  0.0  -15  0.0
+    outer loop
+      vertex    37.5   56.25   12.5
+      vertex    137.5   56.25   12.5
+      vertex    137.5   56.25   25
+    endloop
+  endfacet
+  facet normal  0.0  -15  0.0
+    outer loop
+      vertex    37.5   56.25   12.5
+      vertex    137.5   56.25   25
+      vertex    37.5   56.25   25
+    endloop
+  endfacet
+  facet normal  0.0  0.0  12.5
+    outer loop
+      vertex    37.5   56.25   25
+      vertex    137.5   56.25   25
+      vertex    137.5   71.25   25
+    endloop
+  endfacet
+  facet normal  0.0  0.0  12.5
+    outer loop
+      vertex    37.5   56.25   25
+      vertex    137.5   71.25   25
+      vertex    37.5   71.25   25
+    endloop
+  endfacet
+endsolid BASICSTLCUBEX0Y0Z0
+ // rail
+
+solid BASICSTLCUBEX0Y0Z0
+  facet normal  0.0   0.0  -12.5
+    outer loop
+      vertex    0   0   0
+      vertex    12.5   12.5   0
+      vertex    12.5   0   0
+    endloop
+  endfacet
+  facet normal  0.0   0.0  -12.5
+    outer loop
+      vertex    0   0   0
+      vertex    0   12.5   0
+      vertex    12.5   12.5   0
+    endloop
+  endfacet
+  facet normal  -12.5 0.0   0.0
+    outer loop
+      vertex    0   0   0
+      vertex    0   12.5   12.5
+      vertex    0   12.5   0
+    endloop
+  endfacet
+  facet normal  -12.5 0.0   0.0
+    outer loop
+      vertex    0   0   0
+      vertex    0   0   12.5
+      vertex    0   12.5   12.5
+    endloop
+  endfacet
+  facet normal  0.0  12.5  0.0
+    outer loop
+      vertex    0   12.5   0
+      vertex    12.5   12.5   12.5
+      vertex    12.5   12.5   0
+    endloop
+  endfacet
+  facet normal  0.0  12.5  0.0
+    outer loop
+      vertex    0   12.5   0
+      vertex    0   12.5   12.5
+      vertex    12.5   12.5   12.5
+    endloop
+  endfacet
+  facet normal  12.5  0.0 0.0
+    outer loop
+      vertex    12.5   0   0
+      vertex    12.5   12.5   0
+      vertex    12.5   12.5   12.5
+    endloop
+  endfacet
+  facet normal  12.5  0.0 0.0
+    outer loop
+      vertex    12.5   0   0
+      vertex    12.5   12.5   12.5
+      vertex    12.5   0   12.5
+    endloop
+  endfacet
+  facet normal  0.0  -12.5  0.0
+    outer loop
+      vertex    0   0   0
+      vertex    12.5   0   0
+      vertex    12.5   0   12.5
+    endloop
+  endfacet
+  facet normal  0.0  -12.5  0.0
+    outer loop
+      vertex    0   0   0
+      vertex    12.5   0   12.5
+      vertex    0   0   12.5
+    endloop
+  endfacet
+  facet normal  0.0  0.0  12.5
+    outer loop
+      vertex    0   0   12.5
+      vertex    12.5   0   12.5
+      vertex    12.5   12.5   12.5
+    endloop
+  endfacet
+  facet normal  0.0  0.0  12.5
+    outer loop
+      vertex    0   0   12.5
+      vertex    12.5   12.5   12.5
+      vertex    0   12.5   12.5
+    endloop
+  endfacet
+endsolid BASICSTLCUBEX0Y0Z0
+ // tooth 1
+
+solid BASICSTLCUBEX0Y0Z0
+  facet normal  0.0   0.0  -12.5
+    outer loop
+      vertex    25   0   0
+      vertex    37.5   12.5   0
+      vertex    37.5   0   0
+    endloop
+  endfacet
+  facet normal  0.0   0.0  -12.5
+    outer loop
+      vertex    25   0   0
+      vertex    25   12.5   0
+      vertex    37.5   12.5   0
+    endloop
+  endfacet
+  facet normal  -12.5 0.0   0.0
+    outer loop
+      vertex    25   0   0
+      vertex    25   12.5   12.5
+      vertex    25   12.5   0
+    endloop
+  endfacet
+  facet normal  -12.5 0.0   0.0
+    outer loop
+      vertex    25   0   0
+      vertex    25   0   12.5
+      vertex    25   12.5   12.5
+    endloop
+  endfacet
+  facet normal  0.0  12.5  0.0
+    outer loop
+      vertex    25   12.5   0
+      vertex    37.5   12.5   12.5
+      vertex    37.5   12.5   0
+    endloop
+  endfacet
+  facet normal  0.0  12.5  0.0
+    outer loop
+      vertex    25   12.5   0
+      vertex    25   12.5   12.5
+      vertex    37.5   12.5   12.5
+    endloop
+  endfacet
+  facet normal  12.5  0.0 0.0
+    outer loop
+      vertex    37.5   0   0
+      vertex    37.5   12.5   0
+      vertex    37.5   12.5   12.5
+    endloop
+  endfacet
+  facet normal  12.5  0.0 0.0
+    outer loop
+      vertex    37.5   0   0
+      vertex    37.5   12.5   12.5
+      vertex    37.5   0   12.5
+    endloop
+  endfacet
+  facet normal  0.0  -12.5  0.0
+    outer loop
+      vertex    25   0   0
+      vertex    37.5   0   0
+      vertex    37.5   0   12.5
+    endloop
+  endfacet
+  facet normal  0.0  -12.5  0.0
+    outer loop
+      vertex    25   0   0
+      vertex    37.5   0   12.5
+      vertex    25   0   12.5
+    endloop
+  endfacet
+  facet normal  0.0  0.0  12.5
+    outer loop
+      vertex    25   0   12.5
+      vertex    37.5   0   12.5
+      vertex    37.5   12.5   12.5
+    endloop
+  endfacet
+  facet normal  0.0  0.0  12.5
+    outer loop
+      vertex    25   0   12.5
+      vertex    37.5   12.5   12.5
+      vertex    25   12.5   12.5
+    endloop
+  endfacet
+endsolid BASICSTLCUBEX0Y0Z0
+ // tooth 2
