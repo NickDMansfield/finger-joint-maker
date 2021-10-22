@@ -1,4 +1,4 @@
-export function STLCube(x = 0, y = 0, z = 0, xsize = 25, ysize = 25, zsize = 25, xOffset = 0, yOffset = 0, zOffset = 0) {
+export function STLCube(xsize = 25, ysize = 25, zsize = 25, xOffset = 0, yOffset = 0, zOffset = 0, x = 0, y = 0, z = 0) {
   function n(number) {
     return Number(number).toFixed(1) * 25;
   }
